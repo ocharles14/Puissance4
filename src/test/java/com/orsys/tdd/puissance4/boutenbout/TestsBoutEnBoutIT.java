@@ -16,7 +16,7 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class TestsBoutEnBout {
+public class TestsBoutEnBoutIT {
 	
 	private static final long TIMEOUT = 2;
 	static private IActionsPuissance4 ihmJoueur1 = null;
@@ -87,7 +87,6 @@ public class TestsBoutEnBout {
 		ihmJoueur2.seDeconnecter();
 		ihmJoueur1.fermer();
 		ihmJoueur2.fermer();
-	    
 	    
 	}
 
