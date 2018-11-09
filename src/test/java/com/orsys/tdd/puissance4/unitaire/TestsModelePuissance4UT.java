@@ -13,7 +13,7 @@ public class TestsModelePuissance4UT {
 	
 	private ModelePuissance4 modele = null;
 	
-	
+	// Commentaire
 	@Before
 	public void creationModele() {
 		modele = new ModelePuissance4();
